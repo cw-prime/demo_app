@@ -12,6 +12,7 @@ gem 'sqlite3'
 # in production environments by default.
 group :production do
   # gems specifically for Heroku go here
+  
   gem "pg"
 end
 
